@@ -21,5 +21,5 @@ ReactDOM.render(
       <TimesButton />
     </div>
   </Provider>
-  , document.getElementById('mainContainer'),
+  , document.getElementById('root'),
 );
