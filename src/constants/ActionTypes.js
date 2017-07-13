@@ -1,4 +1,3 @@
-export const ACTION_INCREMENT = 'ACTION_INCREMENT';
-export const ACTION_DECREMENT = 'ACTION_DECREMENT';
-export const ACTION_TIMES = 'ACTION_TIMES';
-export const ACTION_TEST = 'ACTION_TEST';
+export const ADD_TODO = 'ADD_TODO';
+export const DELETE_TODO = 'DELETE_TODO';
+export const TOGGLE_TODO = 'TOGGLE_TODO';

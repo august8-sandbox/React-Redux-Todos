@@ -5,7 +5,7 @@ import packageInfo from './package.json';
 
 export default {
   entry: [
-    path.join(__dirname, 'src/main'),
+    path.join(__dirname, 'src/Main'),
   ],
   output: {
     path: path.join(__dirname, 'dist'),
