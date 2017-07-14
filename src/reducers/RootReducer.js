@@ -1,8 +1,8 @@
 import { createStore, combineReducers } from 'redux';
-import todoReducer from './TodoReducer';
+import Reducer from './Reducer';
 
 const store = createStore(combineReducers({
-  todoReducer,
+  textLength: Reducer,
 }));
 
 export default store;

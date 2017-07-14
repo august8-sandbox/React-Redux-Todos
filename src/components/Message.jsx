@@ -1,13 +1,13 @@
 import React, { PropTypes } from 'react';
 
-const Message = ({ count }) => (
+const Message = ({ length }) => (
   <div>
-    {count}
+    {length}
   </div>
 );
 
 Message.propTypes = {
-  count: PropTypes.number.isRequired,
+  length: PropTypes.number.isRequired,
 };
 
 export default Message;
